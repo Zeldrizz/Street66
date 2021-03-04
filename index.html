@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="media/media.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+
+    <title>Street66</title>
+</head>
+
+<body>
+    <!-- https://zeldrizzzeldi.github.io/Burger_vasheto/ -->
+    <header id="header" class="header">
+        <div class="container mh-100 d-flex flex-column">
+            <nav class="nav d-flex justify-content-between align-items-center">
+                <a href="" class="logo">Street66</a>
+                <ul class="nav__list d-flex">
+                    <li><a href="#receipt" class="nav__list_link">Корзина</a></li>
+                    <li><a href="#menu" class="nav__list_link">Меню</a></li>
+                    <li><a href="#about" class="nav__list_link">О нас</a></li>
+                    <li><a href="#contacts" class="nav__list_link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__content row flex-column flex-grow-1 justify-content-center">
+                <h1 class="header__content__title col-9">Большой гамбургер</h1>
+                <h2 class="header__content__underTitle col-2">говядина</h2>
+                <p class="header__content_description col-12">Свежая хрустящая булочка, листики салата, маринованный
+                    огурец с луком и небольшая котлета, сдобренная майонезом и
+                    кетчупом, - таков классический портрет гамбургера, наиболее распространенной «быстрой» еды в США, от
+                    отравления которой
+                    ежедневно на больничных койках оказываются десятки тысяч американцев</p>
+                <p class="header__content_price col-4">9 999</p>
+            </div>
+        </div>
+    </header>
+
+    
+
+    <main class="main">
+        <div class="container">
+            <ul class="main__list d-flex">
+                <li><a href="#" class="main__list_link">Меню</a></li>
+            </ul>
+            <h2 class="menu__title">Бургеры</h2>
+            <div id="menu" class="main-menu row">
+                <div class="main-menu__card col-4" id="plainBurger">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/photo.png" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">9 999</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Обычный с говядиной</h3>
+                    <p class="main-menu__description">Свежая хрустящая булочка, листики салата, маринованный огурец с
+                        луком и небольшая котлета, сдобренная майонезом и
+                        кетчупом</p>
+
+                </div>
+                <div class="main-menu__card col-4" id="bekonBurger">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/burger2.jpg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">13 500</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Говядина + бекон</h3>
+                    <p class="main-menu__description">Свежая хрустящая булочка, листики салата, маринованный огурец с
+                        луком и небольшая котлета, сдобренная майонезом и
+                        кетчупом</p>
+
+                </div>
+                <div class="main-menu__card col-4" id="cheeseBurger">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/burger3.jpeg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">15 500</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Мега-чиззбургерррр</h3>
+                    <p class="main-menu__description">Свежая хрустящая булочка, листики салата, маринованный огурец с
+                        луком и небольшая котлета, сдобренная майонезом и
+                        кетчупом</p>
+
+                </div>
+                <div class="main-menu__card col-4" id="comboBurger">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/burger4.jpeg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">20 999</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Комбо Бургер!</h3>
+                    <p class="main-menu__description">Свежая хрустящая булочка, листики салата, маринованный огурец с
+                        луком и небольшая котлета, сдобренная майонезом и
+                        кетчупом</p>
+
+                </div>
+                <div class="main-menu__card col-4" id="crabsBurger">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/burger5.jpg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">16 600</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Тот самый Крабс-Бургер!</h3>
+                    <p class="main-menu__description">Свежая хрустящая булочка, листики салата, маринованный огурец с
+                        луком и небольшая котлета, сдобренная майонезом и
+                        кетчупом</p>
+
+                </div>
+                <div class="main-menu__card col-4" id="chickenBurger">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/burger6.jpg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">13 500</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Чикен-Бургер</h3>
+                    <p class="main-menu__description">Свежая хрустящая булочка, листики салата, маринованный огурец с
+                        луком и небольшая котлета, сдобренная майонезом и
+                        кетчупом</p>
+
+                </div>
+            </div>
+            <!-- <a class="arrow" href="#header"></a> -->
+            <h2 class="menu__title">Хот-доги</h2>
+            <div class="main-menu row">
+                <div class="main-menu__card col-4" id="plainHotdog">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/hotdog1.jpg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">8 999</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Обычный Хот-дог</h3>
+                    <p class="main-menu__description">Далеко-далеко за словесными горами, в стране гласных и согласных
+                        живут рыбные тексты.
+                        Текстами скатился своего текстов заголовок?</p>
+
+                </div>
+                <div class="main-menu__card col-4" id="royaleHotdog">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/hotdog2.jpg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">16 500</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Королевский хот-дог</h3>
+                    <p class="main-menu__description">Далеко-далеко за словесными горами, в стране гласных и согласных
+                        живут рыбные тексты.
+                        Текстами скатился своего текстов заголовок?</p>
+
+                </div>
+                <div class="main-menu__card col-4" id="longHotdog">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/hotdog3.jpg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">17 000</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Лонгер</h3>
+                    <p class="main-menu__description">Далеко-далеко за словесными горами, в стране гласных и согласных
+                        живут рыбные тексты.
+                        Текстами скатился своего текстов заголовок?</p>
+
+                </div>
+            </div>
+
+            <h2 class="menu__title">Напитки</h2>
+            <div class="main-menu row">
+                <div class="main-menu__card col-4" id="cokeDrink">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/drink1.jpg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">8 000</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Coca-cola</h3>
+                    <p class="main-menu__description">Далеко-далеко за словесными горами в стране гласных и согласных
+                        живут рыбные тексты.</p>
+
+                </div>
+                <div class="main-menu__card col-4" id="mountainDrink">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/drink2.jpg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">13 300</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Mountain Dew</h3>
+                    <p class="main-menu__description">Далеко-далеко за словесными горами в стране гласных, и согласных
+                        живут рыбные тексты.</p>
+
+                </div>
+                <div class="main-menu__card col-4" id="beerDrink">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/drink3.jpg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">15 000</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Пиво разливное</h3>
+                    <p class="main-menu__description">Далеко-далеко за словесными горами в стране гласных и согласных
+                        живут рыбные тексты.</p>
+
+                </div>
+            </div>
+
+            <h2 class="menu__title">Закусоны</h2>
+            <div class="main-menu row">
+                <div class="main-menu__card col-4" id="potatoSnack">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/dop1.png" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">9 000</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Картошка фри</h3>
+                    <p class="main-menu__description">Далеко-далеко за словесными горами в стране гласных и согласных
+                        живут рыбные тексты.</p>
+
+                </div>
+                <div class="main-menu__card col-4" id="salatSnack">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/dop2.jpg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">10 000</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Салат</h3>
+                    <p class="main-menu__description">Далеко-далеко за словесными горами в стране гласных, и согласных
+                        живут рыбные тексты.</p>
+
+                </div>
+                <div class="main-menu__card col-4" id="beerSnack">
+                    <div class="main-menu__content">
+                        <img class="main-menu__content_img" src="img/dop3.jpg" alt="">
+                        <a href="#" class="main-menu__ad">Нажмите, чтобы добавить в корзину</a>
+                        <p class="main-menu__price">15 000</p>
+                    </div>
+                    <div class="main-menu__order">
+                        <a class="btn-order fas fa-minus" data-symbol="-"></a>
+                        <output class="main__order-num">0</output>
+                        <a class="btn-order fas fa-plus" data-symbol="+"></a>
+                    </div>
+                    <h3 class="main-menu__title">Закусончик</h3>
+                    <p class="main-menu__description">Далеко-далеко за словесными горами в стране гласных и согласных
+                        живут рыбные тексты.</p>
+
+                </div>
+            </div>
+
+            <div class="main-parent">
+                <a href="#!" class="main__link col-2">Заказать</a>
+            </div>
+
+            <div class="parent-order">
+                <div class="main-order">
+                    <h2 class="main-order__title">Вы заказали: </h2>
+                    <div class="main-order__list col-8">
+                        <p class="main-order__text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="receipt" id="receipt">
+            <div class="receipt__window">
+                <h2 class="receipt__window-title">STREET66</h2>
+                <div class="receipt__window-text">Спасибо за ваш выбор!</div>
+    
+                <div class="receipt__window-out"></div>
+    
+                <button class="receipt__window-btn"><a class="linked" href="order.html">Оплатить</a></button>
+            </div>
+        </div>
+
+
+        <section id="about" class="receipted">
+            <div class="container">
+                <h3 class="receipt__title">Уникальная рецептура</h3>
+                <p class="receipt__description">Гамбургер является разновидностью сэндвича, состоящей из жареной
+                    рубленой котлеты, что подается внутри разрезанной
+                    круглой булки. Он обычно дополняется разнообразными приправами, к примеру, листьями салата, кетчупом
+                    и майонезом,
+                    дольками маринованного огурца, помидора или кабачка, сырым или поджаренным луком.</p>
+                <p class="receipt__description">Будучи наиболее распространенной «быстрой» едой в США, гамбургер имеет
+                    далеко не американское происхождение. Ученые
+                    приписывают его авторство кочевникам-скифам, которые клали обжаренное мясо между двумя хлебными
+                    ломтиками. А в Новый
+                    свет «король» фаст-фуда приехал вместе с немецкими иммигрантами: его назвали, кстати, в честь
+                    Гамбурга, второго по
+                    масштабам города Германии. Официальной датой продажи первого гамбургера в США считается 27 июля
+                    1900-го - в этот день
+                    гастроном из Нью-Хейвена предложил жителям города покупать приправленную кетчупом котлету, «зажатую»
+                    между двумя кусками
+                    булки. Изначально такая еда была прерогативой бедных слоев населения, но вскоре по всей стране стали
+                    открываться
+                    «фаст-фудовые» заведения, в которых, быстрым было не только питание, но и обслуживание, и смена
+                    клиентов. Эти общепиты
+                    взяли курс на оперативное детское питание - и для всегда занятого рабочего класса на тот момент они
+                    стали лучшим
+                    решением проблемы, где и чем быстро накормить детей.</p>
+            </div>
+        </section>
+        <section class="branches">
+            <h3 class="branches__title">Наши филиалы</h3>
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.707806973739!2d69.28840151572544!3d41.315219708428195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4d376395311%3A0x2f977e6f6b98ad7!2sStreet77!5e0!3m2!1sru!2s!4v1614606170496!5m2!1sru!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div id="contacts" class="footer__nav">
+                <a href="" class="logo">Street66</a>
+                <a href="tel:+998909807723" class="footer__nav_tel">+998 90 333 22 11</a>
+            </div>
+            <ul class="footer__list">
+                <li><a href="" class="footer__list_link">Меню</a></li>
+                <li><a href="" class="footer__list_link">О нас</a></li>
+                <li><a href="" class="footer__list_link">Контакты</a></li>
+                <li><a href="" class="footer__list_link">Instagram</a></li>
+                <li><a href="" class="footer__list_link">Facebook</a></li>
+                <li><a href="" class="footer__list_link">Telegram Bot</a></li>
+            </ul>
+            <p class="footer__description"></p>
+
+
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

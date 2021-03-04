@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/order.css">
+    <title>Street66 Order</title>
+</head>
+<body>
+
+    <header id="header" class="header">
+        <div class="container mh-100 d-flex flex-column">
+            <nav class="nav d-flex justify-content-between align-items-center">
+                <a href="" class="logo">Street66</a>
+                <ul class="nav__list d-flex">
+                    <li><a href="index.html" class="nav__list_link">На главную</a></li>
+                    <li><a href="index.html" class="nav__list_link">Меню</a></li>
+                    <li><a href="index.html" class="nav__list_link">О нас</a></li>
+                    <li><a href="#contacts" class="nav__list_link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="message">
+                <div class="message__content">
+                    <h2 class="message__content-title">Спасибо за ваш заказ!</h2>
+                    <div class="text">
+                    <p class="message__content-text">Ожидайте заказ от 10-30 минут!</p>
+                    <p class="message__content-text">Наш курьер вам позвонит</p>
+                    <a href="index.html" class="message__content-link">Вернуться на главную</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="order">
+                <div class="order__content">
+                    <h2 class="order__content-title col-3">Для того чтобы заказать, заполните форму</h2>
+                    <p class="order__content-text">
+                        <input type="text" placeholder="Ваше имя:" required class="order__content-input">
+                    </p>
+                    <p class="order__content-text">
+                        <input type="tel" placeholder="Ваш номер телефона" required class="order__content-input">
+                    </p>
+                    <p class="order__content-text">
+                        <input type="text" placeholder="Ваш адрес" required class="order__content-input">
+                    </p>
+                    <p class="order__content-text">
+                        <input type="number" placeholder="Ваш номер карты:" required class="order__content-input">
+                    </p>
+                    <p class="order__content-text">
+                        <input type="password" placeholder="Пароль вашей карты:" required class="order__content-input">
+                    </p>
+                    <div class="buttons">
+                    <button class="buttons__btn1" type="submit">Выполнить заказ!</button>
+                    <button class="buttons__btn2" type="clear">Сброс</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div id="contacts" class="footer__nav">
+                <a href="" class="logo">Street66</a>
+                <a href="tel:+998909807723" class="footer__nav_tel">+998 90 333 22 11</a>
+            </div>
+            <ul class="footer__list">
+                <li><a href="" class="footer__list_link">Меню</a></li>
+                <li><a href="" class="footer__list_link">О нас</a></li>
+                <li><a href="" class="footer__list_link">Контакты</a></li>
+                <li><a href="" class="footer__list_link">Instagram</a></li>
+                <li><a href="" class="footer__list_link">Facebook</a></li>
+                <li><a href="" class="footer__list_link">Telegram Bot</a></li>
+            </ul>
+            <p class="footer__description"></p>
+
+
+        </div>
+    </footer>
+    
+
+    <script src="js/order.js"></script>
+</body>
+</html>
